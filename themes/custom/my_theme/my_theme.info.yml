@@ -1,0 +1,9 @@
+name: My Theme
+type: theme
+description: My Classic theme
+core_version_requirement: ^8 || ^9
+base theme: bartik
+
+libraries:
+  - my_theme/global-css
+  - my_theme/global-js
