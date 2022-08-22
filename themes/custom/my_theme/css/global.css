@@ -209,13 +209,37 @@ ul {
 
 /*  ------------/Global classes ------------- */
 body {
-  background-color: #8e1212; }
+  background-color: #9b5858; }
 
 .layout-content {
   background-color: yellowgreen; }
 
 /*  ------------Nav style ------------- */
-#nav-menu {
+.nav-menu {
+  background-color: var(--text-white);
+  max-width: auto !important;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.nav-menu .nav-item {
+  list-style-type: none;
+  margin: 20px;
+  float: left;
+  padding: 2rem;
+  text-align: center; }
+
+.nav-menu .nav-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--text-red); }
+
+/*  ------------/Nav style ------------- */
+/*  ------------Footer classes ------------- */
+#footer {
   background-color: black;
   max-width: auto;
   height: 80px;
@@ -224,13 +248,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
-
-/*  ------------/Nav style ------------- */
-/*  ------------Footer classes ------------- */
-#footer {
-  box-shadow: var(--box-shadow);
-  border-bottom: 2px solid var(--text-light);
-  background-color: #2d0550; }
 
 /*  ------------/Footer classes ------------- */
 /*  ------------ @media query ------------- */
