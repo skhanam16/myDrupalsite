@@ -1206,6 +1206,75 @@
         }
     },
     {
+        "name": "drupal/colorbox",
+        "version": "1.10.0",
+        "version_normalized": "1.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/colorbox.git",
+            "reference": "8.x-1.10"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/colorbox-8.x-1.10.zip",
+            "reference": "8.x-1.10",
+            "shasum": "af0eca9891e7134722ed785599e4476325cd1c29"
+        },
+        "require": {
+            "drupal/core": "^8.8 || ^9"
+        },
+        "suggest": {
+            "jackmoore/colorbox": "The Colorbox library is required to use the drupal/colorbox module."
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.10",
+                "datestamp": "1650376979",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Neslee Canil Pinto",
+                "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Fredrik Jonsson",
+                "homepage": "https://www.drupal.org/u/frjo",
+                "role": "Maintainer"
+            },
+            {
+                "name": "RenatoG",
+                "homepage": "https://www.drupal.org/user/3326031"
+            },
+            {
+                "name": "Unsupported Projects",
+                "homepage": "https://www.drupal.org/user/291168"
+            }
+        ],
+        "description": "A light-weight, customizable lightbox plugin for jQuery.",
+        "homepage": "https://www.drupal.org/project/colorbox",
+        "support": {
+            "source": "https://git.drupalcode.org/project/colorbox",
+            "issues": "https://www.drupal.org/project/issues/colorbox"
+        }
+    },
+    {
         "name": "drupal/conditional_fields",
         "version": "4.0.0-alpha1",
         "version_normalized": "4.0.0.0-alpha1",
@@ -1816,6 +1885,138 @@
         }
     },
     {
+        "name": "drupal/entity_usage",
+        "version": "2.0.0-beta6",
+        "version_normalized": "2.0.0.0-beta6",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/entity_usage.git",
+            "reference": "8.x-2.0-beta6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/entity_usage-8.x-2.0-beta6.zip",
+            "reference": "8.x-2.0-beta6",
+            "shasum": "b641f9549fc3edaa81f0548f0fc209ece3ed369c"
+        },
+        "require": {
+            "drupal/core": "^8.8 || ^9"
+        },
+        "require-dev": {
+            "drupal/block_field": "~1.0",
+            "drupal/dynamic_entity_reference": "~1.0",
+            "drupal/entity_browser": "~2.0",
+            "drupal/entity_browser_block": "~1.0",
+            "drupal/entity_embed": "~1.0",
+            "drupal/entity_reference_revisions": "~1.0",
+            "drupal/inline_entity_form": "^1.0@RC",
+            "drupal/paragraphs": "~1.0",
+            "drupal/webform": "^6.0.0-alpha4"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.0-beta6",
+                "datestamp": "1633676588",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "marcoscano",
+                "homepage": "https://www.drupal.org/user/1288796"
+            },
+            {
+                "name": "seanB",
+                "homepage": "https://www.drupal.org/user/545912"
+            }
+        ],
+        "description": "Track usage of entities referenced by other entities",
+        "homepage": "https://www.drupal.org/project/entity_usage",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/entity_usage",
+            "issues": "http://drupal.org/project/issues/entity_usage"
+        }
+    },
+    {
+        "name": "drupal/field_css",
+        "version": "2.0.0-rc4",
+        "version_normalized": "2.0.0.0-RC4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/field_css.git",
+            "reference": "2.0.0-rc4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/field_css-2.0.0-rc4.zip",
+            "reference": "2.0.0-rc4",
+            "shasum": "be6e623e0f7363597575b022aba868599d37b02c"
+        },
+        "require": {
+            "drupal/core": "^8.8.4 || ^9",
+            "sabberworm/php-css-parser": "^8.0"
+        },
+        "require-dev": {
+            "drupal/codemirror_editor": "^1.0"
+        },
+        "suggest": {
+            "drupal/codemirror_editor": "Allows for CSS fields to be rendered with the CodeMirror editor"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "2.0.0-rc4",
+                "datestamp": "1593630926",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "RC releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Chris Burge",
+                "homepage": "https://www.drupal.org/user/1826152"
+            },
+            {
+                "name": "e2thex",
+                "homepage": "https://www.drupal.org/user/189123"
+            },
+            {
+                "name": "mikemiles86",
+                "homepage": "https://www.drupal.org/user/471470"
+            }
+        ],
+        "description": "A simple module that provides CSS field type.",
+        "homepage": "https://www.drupal.org/project/field_css",
+        "support": {
+            "source": "https://git.drupalcode.org/project/field_css",
+            "issues": "https://www.drupal.org/project/issues/field_css"
+        }
+    },
+    {
         "name": "drupal/field_group",
         "version": "3.2.0",
         "version_normalized": "3.2.0.0",
@@ -1879,6 +2080,200 @@
         "support": {
             "source": "https://git.drupalcode.org/project/field_group",
             "issues": "https://www.drupal.org/project/issues/field_group"
+        }
+    },
+    {
+        "name": "drupal/jquery_ui",
+        "version": "1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/jquery_ui.git",
+            "reference": "8.x-1.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/jquery_ui-8.x-1.4.zip",
+            "reference": "8.x-1.4",
+            "shasum": "64c19ecc8902e2b4b1ab0cc5f5fe28dbc83bfebe"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.4",
+                "datestamp": "1582149957",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "RobLoach",
+                "homepage": "https://www.drupal.org/user/61114"
+            },
+            {
+                "name": "bnjmnm",
+                "homepage": "https://www.drupal.org/user/2369194"
+            },
+            {
+                "name": "jjeff",
+                "homepage": "https://www.drupal.org/user/17190"
+            },
+            {
+                "name": "lauriii",
+                "homepage": "https://www.drupal.org/user/1078742"
+            },
+            {
+                "name": "litwol",
+                "homepage": "https://www.drupal.org/user/78134"
+            },
+            {
+                "name": "mfb",
+                "homepage": "https://www.drupal.org/user/12302"
+            },
+            {
+                "name": "mfer",
+                "homepage": "https://www.drupal.org/user/25701"
+            },
+            {
+                "name": "mikelutz",
+                "homepage": "https://www.drupal.org/user/2972409"
+            },
+            {
+                "name": "sun",
+                "homepage": "https://www.drupal.org/user/54136"
+            },
+            {
+                "name": "webchick",
+                "homepage": "https://www.drupal.org/user/24967"
+            },
+            {
+                "name": "zrpnr",
+                "homepage": "https://www.drupal.org/user/1448368"
+            }
+        ],
+        "description": "Provides jQuery UI library.",
+        "homepage": "https://www.drupal.org/project/jquery_ui",
+        "support": {
+            "source": "https://git.drupalcode.org/project/jquery_ui"
+        }
+    },
+    {
+        "name": "drupal/jquery_ui_accordion",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/jquery_ui_accordion.git",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/jquery_ui_accordion-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "988a3da3b0bc3042e2f42fd20e401272f8369bbd"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9",
+            "drupal/jquery_ui": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1584106477",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bnjmnm",
+                "homepage": "https://www.drupal.org/user/2369194"
+            },
+            {
+                "name": "lauriii",
+                "homepage": "https://www.drupal.org/user/1078742"
+            },
+            {
+                "name": "zrpnr",
+                "homepage": "https://www.drupal.org/user/1448368"
+            }
+        ],
+        "description": "Provides jQuery UI Accordion library.",
+        "homepage": "https://www.drupal.org/project/jquery_ui_accordion",
+        "support": {
+            "source": "https://git.drupalcode.org/project/jquery_ui_accordion"
+        }
+    },
+    {
+        "name": "drupal/media_gallery",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/media_gallery.git",
+            "reference": "2.0.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/media_gallery-2.0.1.zip",
+            "reference": "2.0.1",
+            "shasum": "50aa9d4424bfab3fac2a6a1f14cc8d3c1fa287ff"
+        },
+        "require": {
+            "drupal/colorbox": "^1.7",
+            "drupal/core": "^9.3 || ^10"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "2.0.1",
+                "datestamp": "1659784827",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Andrei Ivnitskii",
+                "homepage": "https://www.drupal.org/u/ivnish",
+                "role": "Maintainer"
+            },
+            {
+                "name": "JacobSingh",
+                "homepage": "https://www.drupal.org/user/68912"
+            }
+        ],
+        "description": "A simple gallery of media.",
+        "homepage": "https://www.drupal.org/project/media_gallery",
+        "support": {
+            "source": "https://git.drupalcode.org/project/media_gallery",
+            "issues": "https://www.drupal.org/project/issues/media_gallery"
         }
     },
     {
@@ -3659,6 +4054,57 @@
             }
         ],
         "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "sabberworm/php-css-parser",
+        "version": "8.4.0",
+        "version_normalized": "8.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
+            "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/e41d2140031d533348b2192a83f02d8dd8a71d30",
+            "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30",
+            "shasum": ""
+        },
+        "require": {
+            "ext-iconv": "*",
+            "php": ">=5.6.20"
+        },
+        "require-dev": {
+            "codacy/coverage": "^1.4",
+            "phpunit/phpunit": "^4.8.36"
+        },
+        "suggest": {
+            "ext-mbstring": "for parsing UTF-8 CSS"
+        },
+        "time": "2021-12-11T13:40:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sabberworm\\CSS\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Raphael Schweikert"
+            }
+        ],
+        "description": "Parser for CSS Files written in PHP",
+        "homepage": "https://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+        "keywords": [
+            "css",
+            "parser",
+            "stylesheet"
+        ]
     },
     {
         "name": "stack/builder",

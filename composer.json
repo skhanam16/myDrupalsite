@@ -22,7 +22,11 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
+        "drupal/entity_usage": "^2.0@beta",
+        "drupal/field_css": "^2.0@RC",
         "drupal/field_group": "^3.2",
+        "drupal/jquery_ui_accordion": "^1.1",
+        "drupal/media_gallery": "^2.0",
         "drupal/paragraph_view_mode": "^2.0",
         "drupal/paragraphs": "^1.14"
     },

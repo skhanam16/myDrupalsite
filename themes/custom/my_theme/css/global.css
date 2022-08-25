@@ -211,12 +211,15 @@ ul {
   background-color: #3eb7c7; }
 
 /*  ------------/Global classes ------------- */
-.layout-container {
-  background-color: #f6edf7;
-  height: auto; }
+/*-------------***body element background color needs to set important------*/
+#site-main {
+  background-color: #e6ede8; }
 
-.layout-content {
-  background-color: #acfc0c; }
+#site-main .container {
+  background-color: #83c8d1;
+  width: 100%;
+  margin: auto;
+  padding: 2rem; }
 
 /*  ------------Nav style ------------- */
 .nav-menu {
