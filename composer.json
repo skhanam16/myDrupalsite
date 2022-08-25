@@ -16,10 +16,15 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/classy_paragraphs": "^1.0@RC",
+        "drupal/conditional_fields": "^4.0@alpha",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/core-vendor-hardening": "^9.3"
+        "drupal/core-vendor-hardening": "^9.3",
+        "drupal/field_group": "^3.2",
+        "drupal/paragraph_view_mode": "^2.0",
+        "drupal/paragraphs": "^1.14"
     },
     "conflict": {
         "drupal/drupal": "*"

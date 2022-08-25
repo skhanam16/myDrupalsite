@@ -64,12 +64,12 @@
 
   {{ page.help }}
 
-  <main role="main">
+  <main role="main" id="site-main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="layout-content">
+    <div class="container">
    
-    Hello there
+    Good morning
       {{ page.content }}
     </div>{# /.layout-content #}
    
@@ -90,11 +90,12 @@
 
 
 </div>{# /.layout-container #}
-
    <footer role="contentinfo" id="footer">
-   <div class="mx-auto py-10">
-      {{ page.footer }}
+   <div class="grid">
+   <div class="mx-auto mx-bottom font-poppins">
+        {{ page.footer }}
    <div>
+   </div>
    
     </footer>
 
