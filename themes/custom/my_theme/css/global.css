@@ -211,17 +211,22 @@ ul {
   background-color: #3eb7c7; }
 
 /*  ------------/Global classes ------------- */
+<<<<<<< HEAD
 .layout-container {
   background-color: #f6edf7;
   height: auto; }
+=======
+body {
+  background-color: #8e1212; }
+>>>>>>> parent of c5b5a843... navigation menu completed
 
 .layout-content {
   background-color: #acfc0c; }
 
 /*  ------------Nav style ------------- */
-.nav-menu {
-  background-color: var(--text-white);
-  max-width: auto !important;
+#nav-menu {
+  background-color: black;
+  max-width: auto;
   height: 80px;
   margin: 0 auto;
   display: flex;
@@ -229,19 +234,8 @@ ul {
   justify-content: center;
   align-items: center; }
 
-.nav-menu .nav-item {
-  list-style-type: none;
-  margin: 20px;
-  float: left;
-  padding: 2rem;
-  text-align: center; }
-
-.nav-menu .nav-item a {
-  text-decoration: none;
-  font-size: 18px;
-  color: var(--text-red); }
-
 /*  ------------/Nav style ------------- */
+<<<<<<< HEAD
 /*  ------------card-area ------------- */
 .card-area > .grid {
   column-gap: 4em;
@@ -256,6 +250,13 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+=======
+/*  ------------Footer classes ------------- */
+#footer {
+  box-shadow: var(--box-shadow);
+  border-bottom: 2px solid var(--text-light);
+  background-color: #2d0550; }
+>>>>>>> parent of c5b5a843... navigation menu completed
 
 .flex-container > div {
   background-color: #edecf5;

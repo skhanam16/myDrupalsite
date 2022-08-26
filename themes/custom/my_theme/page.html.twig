@@ -45,17 +45,15 @@
  * @ingroup themeable
  */
 #}
-
-
-  <header role="banner" class="header">
-  {{ page.header }}
-    
-     {{ page.primary_menu }}
-
-  </header>
 <div class="layout-container">
 
- 
+  <header role="banner" class="header">
+  <div id="nav-menu">
+    {{ page.header }}
+  </div>
+  </header>
+
+  {{ page.primary_menu }}
   {{ page.secondary_menu }}
 
   {{ page.breadcrumb }}
@@ -88,6 +86,7 @@
 
   </main>
 
+<<<<<<< HEAD
 
 </div>{# /.layout-container #}
    <footer role="contentinfo" id="footer">
@@ -97,6 +96,11 @@
    <div>
    </div>
    
+=======
+   <footer role="contentinfo" class="footer">
+      {{ page.footer }}
+>>>>>>> parent of c5b5a843... navigation menu completed
     </footer>
+</div>{# /.layout-container #}
 
 
